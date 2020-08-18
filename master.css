@@ -1,0 +1,62 @@
+body, html{
+  overflow-x: hidden;
+}
+*{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main{
+  min-height: 100vh;
+  padding: 10px;
+ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.avatar{
+  width: 100px;
+  border-radius: 30px;
+}
+.about{
+  padding: 20px;
+}
+.about p{
+  opacity: .7;
+  padding: 6px 10px;
+}
+.mybtn{
+  color: #000;
+  border-radius: 25px;
+  border: 2px solid #7510F7;
+  background-color: inherit;
+  padding:  10px 30px;
+  transition: 0.5s;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mybtn:hover{
+  background-color: #7510F7;
+  color: #fff;
+    text-decoration: none;
+}
+.links{
+  padding: 20px 0;
+  background-color: #ffffff;
+    border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.linkIcon{
+  padding-right: 10px;
+}
+.links a{
+  font-size: 1.2rem;
+}
+.linkCol{
+  padding: 20px;
+}
+svg{
+  height: 20px;
+  width: auto;
+  margin-top: -2px;
+}
